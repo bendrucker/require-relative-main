@@ -23,7 +23,8 @@
   ],
   "dependencies": {
     "cwd": "^0.6.0",
-    "require-module": "^0.1.0"
+    "require-module": "^0.1.0",
+    "resolve": "^1.1.6"
   },
   "devDependencies": {
     "babel": "^5.0.0",
