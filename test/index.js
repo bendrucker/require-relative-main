@@ -5,7 +5,7 @@ import {resolve} from 'path'
 import requireRelativeMain from '../'
 
 test((t) => {
-  useFixtures('normal')
+  useFixtures('normal/src')
   t.equal(requireRelativeMain('./other'), 'i am other')
   useFixtures('no-main')
   t.throws(requireRelativeMain.bind(null), /must define a "main"/)
