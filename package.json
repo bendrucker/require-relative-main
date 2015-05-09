@@ -1,0 +1,43 @@
+{
+  "name": "require-relative-main",
+  "main": "./src",
+  "version": "0.0.0",
+  "description": "require a module relative to the 'main' script",
+  "license": "MIT",
+  "repository": "bendrucker/require-relative-main",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && babel-tape-runner test/*.js"
+  },
+  "keywords": [
+    "require",
+    "relative",
+    "main"
+  ],
+  "dependencies": {
+    "cwd": "^0.6.0",
+    "require-module": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel": "^5.0.0",
+    "babel-tape-runner": "*",
+    "tape": "^4.0.0",
+    "standard": "bendrucker/standard#babel",
+    "publicist": "~4.0.0",
+    "publicist-es5": "~1.0.0"
+  },
+  "publicist": {
+    "builds": {
+      "es5": {
+        "dest": "./release"
+      }
+    }
+  }
+}
