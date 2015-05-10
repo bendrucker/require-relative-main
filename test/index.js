@@ -5,13 +5,7 @@ import {resolve} from 'path'
 import requireRelativeMain from '../'
 
 test((t) => {
-  useFixtures('normal/src')
-  t.equal(requireRelativeMain('./other'), 'i am other')
-  useFixtures('no-main')
-  t.throws(requireRelativeMain.bind(null), /must define a "main"/)
+  t.equal(requireRelativeMain('./other', resolve(__dirname, 'fixtures/normal')), 'i am other')
+  t.throws(requireRelativeMain.bind(null, 'foo', resolve(__dirname, 'fixtures/no-main')), /must define a "main"/)
   t.end()
 })
-
-function useFixtures (name) {
-  process.chdir(resolve(__dirname, `./fixtures/${name}`))
-}

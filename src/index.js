@@ -8,7 +8,7 @@ import assert from 'assert'
 
 export default function requireRelativeMain (modulePath, cwd) {
   cwd = cwd || process.cwd()
-  const basedir = dirname(lookup('package.json'), {cwd})
+  const basedir = dirname(lookup('package.json', {cwd}))
   const {main} = requireModule('./package.json', basedir)
   assert(main, 'package must define a "main" entry')
   return requireModule(modulePath, dirname(resolveSync(main, {basedir})))
