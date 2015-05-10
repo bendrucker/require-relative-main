@@ -22,6 +22,7 @@
     "main"
   ],
   "dependencies": {
+    "dot-slash": "~1.1.0",
     "look-up": "^0.7.1",
     "require-module": "^0.1.0",
     "resolve": "^1.1.6"
