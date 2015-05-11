@@ -2,7 +2,6 @@
 
 > require a module relative to the "main" script
 
-
 ## Install
 
 ```
