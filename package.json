@@ -1,6 +1,6 @@
 {
   "name": "require-relative-main",
-  "main": "./src",
+  "main": "./release",
   "version": "1.1.3",
   "description": "require a module relative to the 'main' script",
   "license": "MIT",
