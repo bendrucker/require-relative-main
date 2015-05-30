@@ -1,7 +1,7 @@
 {
   "name": "require-relative-main",
   "main": "./src",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "require a module relative to the 'main' script",
   "license": "MIT",
   "repository": "bendrucker/require-relative-main",
