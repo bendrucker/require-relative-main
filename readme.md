@@ -19,18 +19,18 @@ requireRelativeMain('./foo-bar');
 
 ## API
 
-### `requireRelativeMain(modulePath, cwd)`
+#### `requireRelativeMain(modulePath, [cwd])` -> `any`
 
-#### `modulePath`
+##### modulePath
 
 *Required*  
 Type: `string`
 
 The path to the module to be required. This will be required relative to the "main" entry for the package.
 
-#### `cwd`
+##### cwd
 
-Type: `string`
+Type: `string`  
 Default: `process.cwd()`
 
 The working directory from which to look upwards for the package.json file that specifies the main script.
