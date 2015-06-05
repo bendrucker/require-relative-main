@@ -2,7 +2,7 @@
   "name": "require-relative-main",
   "main": "index.js",
   "browser": "browser.js",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "require a module relative to the 'main' script",
   "license": "MIT",
   "repository": "bendrucker/require-relative-main",
