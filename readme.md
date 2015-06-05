@@ -35,6 +35,10 @@ Default: `process.cwd()`
 
 The working directory from which to look upwards for the package.json file that specifies the main script. You should typically specify `__dirname`.
 
+## Browserify
+
+Use the [mainify](https://github.com/bendrucker/mainify) transform in your package if you plan to use require-relative-main with Browserify.
+
 ## License
 
 MIT © [Ben Drucker](http://bendrucker.me)
