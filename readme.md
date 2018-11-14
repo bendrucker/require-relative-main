@@ -1,4 +1,4 @@
-# require-relative-main [![Build Status](https://travis-ci.org/bendrucker/require-relative-main.svg?branch=master)](https://travis-ci.org/bendrucker/require-relative-main)
+# require-relative-main [![Build Status](https://travis-ci.org/bendrucker/require-relative-main.svg?branch=master)](https://travis-ci.org/bendrucker/require-relative-main) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/require-relative-main.svg)](https://greenkeeper.io/)
 
 > require a module relative to the "main" script
 
